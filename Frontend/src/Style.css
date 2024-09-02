@@ -1,0 +1,98 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms;
+}
+
+.activeLink {
+    color: #fdb300;
+}
+
+.Mui-selected {
+    color: white !important;
+    background-color: #FDB300BD !important;
+    border-radius: 5px 5px 5px 5px !important;
+    padding: 10px 20px !important;
+}
+
+.MuiButtonBase-root {
+    border: 1px solid #EAEAEA !important;
+    margin-right: 10px !important;
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.css-19kzrtu {
+    padding: 15px 0 !important;
+    color: #333333B0 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #7d8287 !important;
+}
+
+@media only screen and (max-width: 1020px) {
+    .MuiButtonBase-root {
+        padding: 0px 5px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* ANIMATION */
+
+.waviy1 span {
+    display: inline-block;
+    animation: waviy1 1s infinite;
+
+}
+
+@keyframes waviy1 {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-10px)
+    }
+}
+
+.waviy2 span {
+    display: inline-block;
+    animation: waviy2 2s infinite;
+
+}
+
+@keyframes waviy2 {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-20px)
+    }
+}
+
+.serviceIcon {
+    display: grid;
+    justify-content: center;
+}
+
+.serviceIcon svg {
+    font-size: 45px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
